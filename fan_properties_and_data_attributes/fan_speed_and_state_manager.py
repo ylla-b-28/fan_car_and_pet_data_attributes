@@ -42,6 +42,15 @@ class Fan:
         self.__on_status = bool(new_on_status)
 
 class TestFan:
+    #method to display fan's details
+    def display_fan_properties(self, fan_object, fan_display_name):
+        print(f"   ₊˚ ✧ ━━━━⊱ {fan_display_name}")
+        #retrieving properties using getters
+        print(f"   Speed: {fan_object.get_speed()}")
+        print(f"   Radius: {fan_object.get_radius()}")
+        print(f"   Color: {fan_object.get_color()}")
+        print(f"   Status: {'On' if fan_object.is_on() else 'Off'}")
+
     #method to run the test
     def run_test(self):
         #creating first object of the class
