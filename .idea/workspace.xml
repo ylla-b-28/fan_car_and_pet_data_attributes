@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0e62ae4-6be4-45a8-828f-7f3193af3160" name="Changes" comment="I started putting comments">
-      <change beforePath="$PROJECT_DIR$/fan_properties_and_data_attributes/fan_speed_and_state_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/fan_properties_and_data_attributes/fan_speed_and_state_manager.py" afterDir="false" />
+    <list default="true" id="c0e62ae4-6be4-45a8-828f-7f3193af3160" name="Changes" comment="Finalized and added design.">
+      <change beforePath="$PROJECT_DIR$/car_properties_and_data_attributes/car_acceleration_and_brake_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/car_properties_and_data_attributes/car_acceleration_and_brake_tracker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.fan_speed_and_state_manager.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
@@ -81,12 +82,75 @@
       <option name="project" value="LOCAL" />
       <updated>1780588403276</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="I added class and encapsulate private members.">
+      <option name="closed" value="true" />
+      <created>1780588882950</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1780588882950</updated>
+    </task>
+    <task id="LOCAL-00004" summary="I added getters and setters for all encapsulated fields.">
+      <option name="closed" value="true" />
+      <created>1780589383670</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1780589383670</updated>
+    </task>
+    <task id="LOCAL-00005" summary="I implemented TestFan framework and instantiate fan objects.">
+      <option name="closed" value="true" />
+      <created>1780589807186</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1780589807186</updated>
+    </task>
+    <task id="LOCAL-00006" summary="I added a method to display fan's details">
+      <option name="closed" value="true" />
+      <created>1780590075843</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1780590075843</updated>
+    </task>
+    <task id="LOCAL-00007" summary="I connected the property display drivers and set main script entry point">
+      <option name="closed" value="true" />
+      <created>1780591143661</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1780591143661</updated>
+    </task>
+    <task id="LOCAL-00008" summary="I corrected the error.">
+      <option name="closed" value="true" />
+      <created>1780592613010</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1780592613010</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Finalized and added design.">
+      <option name="closed" value="true" />
+      <created>1780595225680</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1780595225680</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="I created different folders and Python file for the 3 programs." />
     <MESSAGE value="I started putting comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="I started putting comments" />
+    <MESSAGE value="I added class and encapsulate private members." />
+    <MESSAGE value="I added getters and setters for all encapsulated fields." />
+    <MESSAGE value="I implemented TestFan framework and instantiate fan objects." />
+    <MESSAGE value="I added a method to display fan's details" />
+    <MESSAGE value="I connected the property display drivers and set main script entry point" />
+    <MESSAGE value="I corrected the error." />
+    <MESSAGE value="Finalized and added design." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalized and added design." />
   </component>
 </project>
