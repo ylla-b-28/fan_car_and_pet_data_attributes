@@ -1,7 +1,11 @@
-#class
+class Car:
+    def __init__(self, year_model, make):
+        self.__year_model = str(year_model)
+        self.__make = str(make)
+        self.__speed = 0
 
-#variable
 
-#method
 
-#getter
+
+
+
