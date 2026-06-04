@@ -53,3 +53,7 @@ class TestPet:
         print("")
         self.display_pet_properties(my_pet, "Pet Profile Object")
         print("\033[1;95m⊱.˚── ⋅ .✧˚❀˚✧. ⋅ ──˚.⊰\033[0m")
+
+        print("\n          \033[1;96m⋆⁺｡˚⋆˙‧₊☽ ◯ ☾₊‧˙⋆˚｡⁺⋆\033[0m")
+        print("  \033[1;92mSystem diagnostics completed successfully.\033[0m")
+        print("          \033[1;96m⋆⁺｡˚⋆˙‧₊☽ ◯ ☾₊‧˙⋆˚｡⁺⋆\033[0m\n")
