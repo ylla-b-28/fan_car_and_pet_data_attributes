@@ -27,6 +27,15 @@ class Car:
     def get_make(self):
         return self.__make
 
+class TestCar:
+    #method to display car's details
+    def display_car_properties(self, car_object, car_display_name, action_type):
+        print(f"\033[1;95m₊˚ ✧ ━━━━ ⊱\033[0m \033[1;38;5;129m{car_display_name}\033[0m \033[1;95m⊰ ━━━━ ✧ ₊˚\033[0m")
+
+        year_model_value = car_object.get_year_model()
+        make_value = car_object.get_make()
+        speed_value = car_object.get_speed()
+
 
 
 
