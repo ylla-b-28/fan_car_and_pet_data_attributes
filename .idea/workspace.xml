@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0e62ae4-6be4-45a8-828f-7f3193af3160" name="Changes" comment="I added the success indicator text.">
-      <change beforePath="$PROJECT_DIR$/pet_properties_and_data_attributes/pet_registry_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_properties_and_data_attributes/pet_registry_database.py" afterDir="false" />
+    <list default="true" id="c0e62ae4-6be4-45a8-828f-7f3193af3160" name="Changes" comment="Finalized the program.">
+      <change beforePath="$PROJECT_DIR$/car_properties_and_data_attributes/car_acceleration_and_brake_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/car_properties_and_data_attributes/car_acceleration_and_brake_tracker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780599633423</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Finalized the program.">
+      <option name="closed" value="true" />
+      <created>1780599706662</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1780599706662</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -261,6 +269,7 @@
     <MESSAGE value="I added the color designs." />
     <MESSAGE value="I added instance and collect user input." />
     <MESSAGE value="I added the success indicator text." />
-    <option name="LAST_COMMIT_MESSAGE" value="I added the success indicator text." />
+    <MESSAGE value="Finalized the program." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalized the program." />
   </component>
 </project>

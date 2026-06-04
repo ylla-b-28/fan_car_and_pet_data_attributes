@@ -70,7 +70,7 @@ class TestCar:
         porsche_car.accelerate()
         print("")
         self.display_car_properties(porsche_car, "Third Accelerate", "Accelerating")
-        self.display_car_properties(porsche_car, "Third Accelerate", "Accelerating")
+        print("\033[1;95m⊱.˚── ⋅ .✧˚❀˚✧. ⋅ ──˚.⊰\033[0m")
 
         # Accelerate 4
         porsche_car.accelerate()
