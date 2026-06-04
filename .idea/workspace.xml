@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0e62ae4-6be4-45a8-828f-7f3193af3160" name="Changes" comment="I created different folders and Python file for the 3 programs.">
-      <change beforePath="$PROJECT_DIR$/pet_properties_and_data_attributes/pet_registry_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_properties_and_data_attributes/pet_registry_database.py" afterDir="false" />
+    <list default="true" id="c0e62ae4-6be4-45a8-828f-7f3193af3160" name="Changes" comment="I started putting comments">
+      <change beforePath="$PROJECT_DIR$/fan_properties_and_data_attributes/fan_speed_and_state_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/fan_properties_and_data_attributes/fan_speed_and_state_manager.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +73,20 @@
       <option name="project" value="LOCAL" />
       <updated>1780588192116</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="I started putting comments">
+      <option name="closed" value="true" />
+      <created>1780588403276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780588403276</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="I created different folders and Python file for the 3 programs." />
-    <option name="LAST_COMMIT_MESSAGE" value="I created different folders and Python file for the 3 programs." />
+    <MESSAGE value="I started putting comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="I started putting comments" />
   </component>
 </project>
