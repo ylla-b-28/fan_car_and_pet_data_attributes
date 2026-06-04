@@ -36,6 +36,20 @@ class TestCar:
         make_value = car_object.get_make()
         speed_value = car_object.get_speed()
 
+        if action_type == "Accelerating":
+            power_state_value = "\033[1;92m"
+            power_status_text_label = "Accelerating"
+        elif action_type == "Braking":
+            power_state_value = "\033[1;91m"
+            power_status_text_label = "Braking"
+        else:
+            power_state_value = "\033[0m"
+            power_status_text_label = "Stationary"
+
+        print(f"   Year Model: {year_model_value}")
+        print(f"   Make:       {make_value}")
+        print(f"   Speed:      \033[1;38;5;129m{speed_value}\033[0m")
+        print(f"   Status:     {power_state_value}{power_status_text_label}\033[0m")
 
 
 
