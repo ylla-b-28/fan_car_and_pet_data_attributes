@@ -57,3 +57,7 @@ class TestPet:
         print("\n          \033[1;96m⋆⁺｡˚⋆˙‧₊☽ ◯ ☾₊‧˙⋆˚｡⁺⋆\033[0m")
         print("  \033[1;92mSystem diagnostics completed successfully.\033[0m")
         print("          \033[1;96m⋆⁺｡˚⋆˙‧₊☽ ◯ ☾₊‧˙⋆˚｡⁺⋆\033[0m\n")
+
+if __name__ == "__main__":
+    test_execution = TestPet()
+    test_execution.run_test()

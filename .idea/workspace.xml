@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0e62ae4-6be4-45a8-828f-7f3193af3160" name="Changes" comment="I finalized the design and colors.">
+    <list default="true" id="c0e62ae4-6be4-45a8-828f-7f3193af3160" name="Changes" comment="I added the success indicator text.">
       <change beforePath="$PROJECT_DIR$/pet_properties_and_data_attributes/pet_registry_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_properties_and_data_attributes/pet_registry_database.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.car_acceleration_and_brake_tracker.executor": "Run",
     "Python.fan_speed_and_state_manager.executor": "Run",
+    "Python.pet_registry_database.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
@@ -195,7 +196,47 @@
       <option name="project" value="LOCAL" />
       <updated>1780598667461</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="I defined the pet class and initialized the attributes.">
+      <option name="closed" value="true" />
+      <created>1780598899720</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1780598899720</updated>
+    </task>
+    <task id="LOCAL-00018" summary="I added the getters and setters.">
+      <option name="closed" value="true" />
+      <created>1780599077746</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1780599077746</updated>
+    </task>
+    <task id="LOCAL-00019" summary="I added the color designs.">
+      <option name="closed" value="true" />
+      <created>1780599423110</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1780599423110</updated>
+    </task>
+    <task id="LOCAL-00020" summary="I added instance and collect user input.">
+      <option name="closed" value="true" />
+      <created>1780599570097</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1780599570097</updated>
+    </task>
+    <task id="LOCAL-00021" summary="I added the success indicator text.">
+      <option name="closed" value="true" />
+      <created>1780599633423</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1780599633423</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -215,6 +256,11 @@
     <MESSAGE value="I added designs." />
     <MESSAGE value="I added call sequences." />
     <MESSAGE value="I finalized the design and colors." />
-    <option name="LAST_COMMIT_MESSAGE" value="I finalized the design and colors." />
+    <MESSAGE value="I defined the pet class and initialized the attributes." />
+    <MESSAGE value="I added the getters and setters." />
+    <MESSAGE value="I added the color designs." />
+    <MESSAGE value="I added instance and collect user input." />
+    <MESSAGE value="I added the success indicator text." />
+    <option name="LAST_COMMIT_MESSAGE" value="I added the success indicator text." />
   </component>
 </project>
