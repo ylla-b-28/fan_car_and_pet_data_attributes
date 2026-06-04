@@ -51,9 +51,74 @@ class TestCar:
         print(f"   Speed:      \033[1;38;5;129m{speed_value}\033[0m")
         print(f"   Status:     {power_state_value}{power_status_text_label}\033[0m")
 
+    def run_test(self):
+        porsche_car = Car(2026, "Porsche 911 GT3 RS")
 
+        # Accelerate 1
+        porsche_car.accelerate()
+        print("")
+        self.display_car_properties(porsche_car, "First Accelerate", "Accelerating")
+        print("\033[1;95m⊱.˚── ⋅ .✧˚❀˚✧. ⋅ ──˚.⊰\033[0m")
 
+        # Accelerate 2
+        porsche_car.accelerate()
+        print("")
+        self.display_car_properties(porsche_car, "Second Accelerate", "Accelerating")
+        print("\033[1;95m⊱.˚── ⋅ .✧˚❀˚✧. ⋅ ──˚.⊰\033[0m")
 
+        # Accelerate 3
+        porsche_car.accelerate()
+        print("")
+        self.display_car_properties(porsche_car, "Third Accelerate", "Accelerating")
+        self.display_car_properties(porsche_car, "Third Accelerate", "Accelerating")
 
+        # Accelerate 4
+        porsche_car.accelerate()
+        print("")
+        self.display_car_properties(porsche_car, "Fourth Accelerate", "Accelerating")
+        print("\033[1;95m⊱.˚── ⋅ .✧˚❀˚✧. ⋅ ──˚.⊰\033[0m")
 
+        # Accelerate 5
+        porsche_car.accelerate()
+        print("")
+        self.display_car_properties(porsche_car, "Fifth Accelerate", "Accelerating")
+        print("\033[1;95m⊱.˚── ⋅ .✧˚❀˚✧. ⋅ ──˚.⊰\033[0m")
 
+        # Brake 1
+        porsche_car.brake()
+        print("")
+        self.display_car_properties(porsche_car, "First Brake", "Braking")
+        print("\033[1;95m⊱.˚── ⋅ .✧˚❀˚✧. ⋅ ──˚.⊰\033[0m")
+
+        # Brake 2
+        porsche_car.brake()
+        print("")
+        self.display_car_properties(porsche_car, "Second Brake", "Braking")
+        print("\033[1;95m⊱.˚── ⋅ .✧˚❀˚✧. ⋅ ──˚.⊰\033[0m")
+
+        # Brake 3
+        porsche_car.brake()
+        print("")
+        self.display_car_properties(porsche_car, "Third Brake", "Braking")
+        print("\033[1;95m⊱.˚── ⋅ .✧˚❀˚✧. ⋅ ──˚.⊰\033[0m")
+
+        # Brake 4
+        porsche_car.brake()
+        print("")
+        self.display_car_properties(porsche_car, "Fourth Brake", "Braking")
+        print("\033[1;95m⊱.˚── ⋅ .✧˚❀˚✧. ⋅ ──˚.⊰\033[0m")
+
+        # Brake 5
+        porsche_car.brake()
+        print("")
+        self.display_car_properties(porsche_car, "Fifth Brake", "Braking")
+        print("\033[1;95m⊱.˚── ⋅ .✧˚❀˚✧. ⋅ ──˚.⊰\033[0m")
+
+        # System Diagnostics Footer
+        print("\n          \033[1;96m⋆⁺｡˚⋆˙‧₊☽ ◯ ☾₊‧˙⋆˚｡⁺⋆\033[0m")
+        print("  \033[1;92mSystem diagnostics completed successfully.\033[0m")
+        print("          \033[1;96m⋆⁺｡˚⋆˙‧₊☽ ◯ ☾₊‧˙⋆˚｡⁺⋆\033[0m\n")
+
+if __name__ == "__main__":
+    test_execution = TestCar()
+    test_execution.run_test()
