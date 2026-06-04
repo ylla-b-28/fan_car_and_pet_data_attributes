@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0e62ae4-6be4-45a8-828f-7f3193af3160" name="Changes" comment="Finalized and added design.">
-      <change beforePath="$PROJECT_DIR$/car_properties_and_data_attributes/car_acceleration_and_brake_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/car_properties_and_data_attributes/car_acceleration_and_brake_tracker.py" afterDir="false" />
+    <list default="true" id="c0e62ae4-6be4-45a8-828f-7f3193af3160" name="Changes" comment="I finalized the design and colors.">
+      <change beforePath="$PROJECT_DIR$/pet_properties_and_data_attributes/pet_registry_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_properties_and_data_attributes/pet_registry_database.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.car_acceleration_and_brake_tracker.executor": "Run",
     "Python.fan_speed_and_state_manager.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -138,7 +139,63 @@
       <option name="project" value="LOCAL" />
       <updated>1780595225680</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="I started comments in car program.">
+      <option name="closed" value="true" />
+      <created>1780595499769</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1780595499769</updated>
+    </task>
+    <task id="LOCAL-00011" summary="I added variables.">
+      <option name="closed" value="true" />
+      <created>1780596712760</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1780596712760</updated>
+    </task>
+    <task id="LOCAL-00012" summary="I added getters.">
+      <option name="closed" value="true" />
+      <created>1780596746883</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1780596746883</updated>
+    </task>
+    <task id="LOCAL-00013" summary="I added new class and method.">
+      <option name="closed" value="true" />
+      <created>1780596792323</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1780596792323</updated>
+    </task>
+    <task id="LOCAL-00014" summary="I added designs.">
+      <option name="closed" value="true" />
+      <created>1780596833460</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1780596833461</updated>
+    </task>
+    <task id="LOCAL-00015" summary="I added call sequences.">
+      <option name="closed" value="true" />
+      <created>1780598350268</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1780598350268</updated>
+    </task>
+    <task id="LOCAL-00016" summary="I finalized the design and colors.">
+      <option name="closed" value="true" />
+      <created>1780598667461</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1780598667461</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -151,6 +208,13 @@
     <MESSAGE value="I connected the property display drivers and set main script entry point" />
     <MESSAGE value="I corrected the error." />
     <MESSAGE value="Finalized and added design." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalized and added design." />
+    <MESSAGE value="I started comments in car program." />
+    <MESSAGE value="I added variables." />
+    <MESSAGE value="I added getters." />
+    <MESSAGE value="I added new class and method." />
+    <MESSAGE value="I added designs." />
+    <MESSAGE value="I added call sequences." />
+    <MESSAGE value="I finalized the design and colors." />
+    <option name="LAST_COMMIT_MESSAGE" value="I finalized the design and colors." />
   </component>
 </project>
