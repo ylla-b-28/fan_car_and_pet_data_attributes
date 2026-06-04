@@ -46,10 +46,10 @@ class TestCar:
             power_state_value = "\033[0m"
             power_status_text_label = "Stationary"
 
-        print(f"   Year Model: {year_model_value}")
-        print(f"   Make:       {make_value}")
-        print(f"   Speed:      \033[1;38;5;129m{speed_value}\033[0m")
-        print(f"   Status:     {power_state_value}{power_status_text_label}\033[0m")
+        print(f"   \033[1;38;5;208mYear Model:\033[0m \033[1;96m{year_model_value}\033[0m")
+        print(f"   \033[1;38;5;208mMake:\033[0m       \033[1;93m{make_value}\033[0m")
+        print(f"   \033[1;38;5;208mSpeed:\033[0m      \033[1;38;5;129m{speed_value}\033[0m")
+        print(f"   \033[1;38;5;208mStatus:\033[0m     {power_state_value}{power_status_text_label}\033[0m")
 
     def run_test(self):
         porsche_car = Car(2026, "Porsche 911 GT3 RS")
