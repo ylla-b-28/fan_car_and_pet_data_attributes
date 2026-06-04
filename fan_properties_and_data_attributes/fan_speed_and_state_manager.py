@@ -77,5 +77,23 @@ class TestFan:
         #changing power status using setter
         second_fan.set_on(False)
 
+        print("")
+        #retrieving fan properties using display method
+        self.display_fan_properties(first_fan, "First Fan Object")
+        print("₊˚ ✧ ━━━━⊱⋆⊰━━━━ ✧ ₊˚")
+
+        print("")
+        #retrieving fan properties using display method
+        self.display_fan_properties(second_fan, "Second Fan Object")
+        print("₊˚ ✧ ━━━━⊱⋆⊰━━━━ ✧ ₊˚")
+
+        print("\n   System diagnostics completed successfully. ✧")
+        print("⋆⁺｡˚⋆˙‧₊☽ ◯ ☾₊‧˙⋆˚｡⁺⋆\n")
+
+#executing the program
+if __name__ == "__main__":
+    test_execution = TestFan()
+    test_execution.run_test()
+
 
 
