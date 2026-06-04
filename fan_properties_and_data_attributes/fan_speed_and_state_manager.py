@@ -41,5 +41,32 @@ class Fan:
     def set_on_status(self, new_on_status):
         self.__on_status = bool(new_on_status)
 
+class TestFan:
+    #method to run the test
+    def run_test(self):
+        #creating first object of the class
+        first_fan = Fan()
+
+        #changing speed using setter
+        first_fan.set_speed(Fan.fast)
+        #changing radius using setter
+        first_fan.set_radius(10.0)
+        #changing color using setter
+        first_fan.set_color("yellow")
+        #changing power status using setter
+        first_fan.set_on(True)
+
+        #creating second object of the class
+        second_fan = Fan()
+
+        #changing speed using setter
+        second_fan.set_speed(Fan.medium)
+        #changing radius using setter
+        second_fan.set_radius(5.0)
+        #changing color using setter
+        second_fan.set_color("blue")
+        #changing power status using setter
+        second_fan.set_on(False)
+
 
 
