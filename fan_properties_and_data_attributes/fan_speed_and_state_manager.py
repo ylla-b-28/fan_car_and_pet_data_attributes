@@ -44,12 +44,33 @@ class Fan:
 class TestFan:
     #method to display fan's details
     def display_fan_properties(self, fan_object, fan_display_name):
-        print(f"   ₊˚ ✧ ━━━━⊱ {fan_display_name}")
+        print(f"\033[1;95m₊˚ ✧ ━━━━ ⊱\033[0m \033[1;96m{fan_display_name}\033[0m \033[1;95m⊰ ━━━━ ✧ ₊˚\033[0m")
+
+        speed_value = fan_object.get_speed()
+        radius_value = fan_object.get_radius()
+        color_value = fan_object.get_color()
+        power_state = fan_object.is_on()
+
+        if color_value == "yellow":
+            color_code = "\033[1;93m"
+        elif color_value == "blue":
+            color_code = "\033[1;94m"
+        else:
+            color_code = "\033[0m"
+
+        if power_state:
+            power_state_value = "\033[1;92m"
+            power_status_text_label = "On"
+        else:
+            power_state_value = "\033[1;91m"
+            power_status_text_label = "Off"
+
+
         #retrieving properties using getters
-        print(f"   Speed: {fan_object.get_speed()}")
-        print(f"   Radius: {fan_object.get_radius()}")
-        print(f"   Color: {fan_object.get_color()}")
-        print(f"   Status: {'On' if fan_object.is_on() else 'Off'}")
+        print(f"   Speed: \033[1;38;5;129m{speed_value}\033[0m")
+        print(f"   Radius: \033[1;38;5;208m{radius_value}\033[0m")
+        print(f"   Color: {color_code}{color_value}\033[0m")
+        print(f"   Status: {power_state_value}{power_status_text_label}\033[0m")
 
     #method to run the test
     def run_test(self):
@@ -80,15 +101,16 @@ class TestFan:
         print("")
         #retrieving fan properties using display method
         self.display_fan_properties(first_fan, "First Fan Object")
-        print("₊˚ ✧ ━━━━⊱⋆⊰━━━━ ✧ ₊˚")
+        print("\033[1;95m⊱ .˚ ━━━━ ⋅ . ✧ ˚  ❀  ˚ ✧ . ⋅ ━━━━ ˚. ⊰\033[0m")
 
         print("")
         #retrieving fan properties using display method
         self.display_fan_properties(second_fan, "Second Fan Object")
-        print("₊˚ ✧ ━━━━⊱⋆⊰━━━━ ✧ ₊˚")
+        print("\033[1;95m⊱ .˚ ━━━━ ⋅ . ✧ ˚  ❀  ˚ ✧ . ⋅ ━━━━ ˚. ⊰\033[0m")
 
-        print("\n   System diagnostics completed successfully. ✧")
-        print("⋆⁺｡˚⋆˙‧₊☽ ◯ ☾₊‧˙⋆˚｡⁺⋆\n")
+        print("\n    \033[1;96m ⋆ ⁺ ｡ ˚ ⋆ ˙ ‧ ₊ ☽ ◯ ☾ ₊ ‧ ˙ ⋆ ˚ ｡ ⁺ ⋆ \033[0m")
+        print("  \033[1;92mSystem diagnostics completed successfully.\033[0m")
+        print("    \033[1;96m ⋆ ⁺ ｡ ˚ ⋆ ˙ ‧ ₊ ☽ ◯ ☾ ₊ ‧ ˙ ⋆ ˚ ｡ ⁺ ⋆ \033[0m\n")
 
 #executing the program
 if __name__ == "__main__":
