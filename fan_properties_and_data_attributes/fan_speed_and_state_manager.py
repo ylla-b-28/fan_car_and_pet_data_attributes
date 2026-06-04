@@ -34,11 +34,11 @@ class Fan:
         self.__color = str(new_color)
 
     #getter method for power status
-    def get_on_status(self):
+    def is_on(self):
         return self.__on_status
 
     #setter method for power status
-    def set_on_status(self, new_on_status):
+    def set_on(self, new_on_status):
         self.__on_status = bool(new_on_status)
 
 class TestFan:
